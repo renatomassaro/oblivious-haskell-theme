@@ -3,7 +3,7 @@
   <head>
     <title><?php echo _e($title); ?></title>
     <link rel="alternate" type="application/atom+xml" title="RSS"
-          href="https://phabricator.haskell.org/phame/blog/feed/1/" />
+          href="https://dev.hackerexperience.com/phame/blog/feed/1/" />
     <?php echo $skin->getCSSResources(); ?>
 
   </head>
@@ -16,6 +16,6 @@
       </h1>
       <p><?php echo _e($blog->getDescription()); ?></p>
       <br/>
-      <p>Atom feed available <a href="https://phabricator.haskell.org/phame/blog/feed/1/">here</a>.</p>
+      <p><a href="https://dev.hackerexperience.com/phame/blog/feed/1/">Atom feed</a>.</p>
     </div>
     <div class="oblivious-content">
