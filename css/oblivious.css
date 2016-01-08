@@ -30,6 +30,12 @@ html {
     display: none;
 }
 
+.oblivious-content {
+    padding-top: 3%;
+    margin-left: 22%;
+    max-width: 600px;
+}
+
 @media screen and (max-width: 480px) {
 
     .oblivious-info {
@@ -79,7 +85,7 @@ html {
 
 
 a {
-  color: #222222;
+  color: #000c4b;
 }
 
 a:hover {
