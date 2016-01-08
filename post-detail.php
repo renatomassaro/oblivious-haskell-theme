@@ -3,8 +3,8 @@
 <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
-        this.page.url = <?php echo $blog->getDomain() . '/' . $post->getPost()->getPhameTitle(); ?>
-        this.page.identifier = location.protocol + '//' + <?php echo $post->getPost()->getPhameTitle(); ?>
+        this.page.url = location.protocol + "//" + "<?php echo $blog->getDomain() . '/' . $post->getPost()->getPhameTitle(); ?>";
+        this.page.identifier = "<?php echo $post->getPost()->getPhameTitle(); ?>";
     };
     (function() {  // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
