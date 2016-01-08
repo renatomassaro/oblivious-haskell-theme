@@ -20,5 +20,6 @@
       <p><?php echo _e($blog->getDescription()); ?></p>
       <br/>
       <p><a href="https://dev.hackerexperience.com/phame/blog/feed/1/">Atom feed</a>.</p>
+      <?php is_file('subscribe.html') && require_once('subscribe.html'); ?>
     </div>
     <div class="oblivious-content">
